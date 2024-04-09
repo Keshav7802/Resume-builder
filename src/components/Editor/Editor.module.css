@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.headerItems {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerItem {
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.headerItems .activeItem {
+    border-bottom: 2px solid #3b87f8;
+}
+
+.contentBox {
+    min-height: 520px;
+    padding: 50px;
+    text-align: left;
+}
+
+.contentBox .saveBtn {
+    margin: 10px 40px;
+}
+
+.addOns {
+    width: max-content;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Input Fields  */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 40px;
+    text-align: left;
+}
+
+.col {
+    display: flex;
+    gap: 20px;
+}
+
+.colDiv {
+    width: 50%;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.cross{
+    margin-left: 4px;
+    margin-bottom: 1px;
+    padding: 1px;
+}
+
+.cross:hover{
+    border-radius: 50%;
+    background-color: #ffa5a5;
+    color: #000;
+    transition: 0.07s ease-in;
+}
